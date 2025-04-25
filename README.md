@@ -1,12 +1,10 @@
 
-__mytransfer__ — a Java console application for synchronizing tasks from YouTrack to Jira.
+mytransfer — a Java console application for synchronizing tasks from YouTrack to Jira.
 
-<h3>__Description__</h3>
+<h3>Description</h3>
 
 
 The application performs the following functions:
-
-
 
 * Checks the availability of YouTrack and Jira services.
 * Loads YouTrack users from a CSV file.
@@ -18,7 +16,7 @@ The application performs the following functions:
     * Creates links between tasks.
 * Supports safe stopping of the synchronization process.
 
-<h3>__Project structure__</h3>
+<h3> Project structure </h3>
 
 
 constants/ - constants and settings (URL, tokens, headers)
@@ -41,7 +39,7 @@ Main.java - entry point to the application
 
 README.md — project documentation
 
-<h3>__Installation and launch__</h3>
+<h3>Installation and launch</h3>
 
 
 Clone the repository: \
@@ -75,12 +73,9 @@ Compile the project and run the application: \
 javac -d out src/main/java/org/example/**/*.java
 
 
-
 4. java -cp out org.example.Main
 
-<h3>__Usage__</h3>
-
-
+<h3>Usage</h3>
 
 
 * After launch, the application will check the availability of services.
