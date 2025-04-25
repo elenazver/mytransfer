@@ -1,5 +1,5 @@
 
-mytransfer — a Java console application for synchronizing tasks from YouTrack to Jira.
+mytransfer  a Java console application for synchronizing tasks from YouTrack to Jira.
 
 <h3>Description</h3>
 
@@ -29,7 +29,7 @@ dto/ - DTO classes for YouTrack and Jira
 
 enumeration/ - enumerations: `ProjectType`, `LinkType`, `YouTrackLinkType`, etc.
 
-service/ — synchronization business logic (`IssueSynchronizer`)
+service/  synchronization business logic (`IssueSynchronizer`)
 
 usermenu/ - display a menu for selecting an action and project (`UserMenu`)
 
@@ -37,7 +37,7 @@ util/ - utilities: CSV reading (`CsvReader`), deserializers
 
 Main.java - entry point to the application
 
-README.md — project documentation
+README.md  project documentation
 
 <h3>Installation and launch</h3>
 
@@ -50,19 +50,19 @@ git clone https://github.com/elenazver/mytransfer.git
 1. cd mytransfer
 2. Edit the file `constants/ProjectConstants.java`:
 
-    `YOUTRACK_API_KEY` — your YouTrack token.
+    `YOUTRACK_API_KEY`  your YouTrack token.
 
 
-    `YOUTRACK_URL` — YouTrack API URL (for example, `https://<your_domain>.youtrack.cloud/api`).
+    `YOUTRACK_URL`  YouTrack API URL (for example, `https://<your_domain>.youtrack.cloud/api`).
 
 
-        `JIRA_API_KEY` — your Jira token.
+        `JIRA_API_KEY`  your Jira token.
 
 
     `JIRA_URL` - Jira API URL (for example, `https://<your_domain>.atlassian.net/rest/api/2`).
 
 
-    `JIRA_USERNAME` — your login in Jira.
+    `JIRA_USERNAME`  your login in Jira.
 
 3. Prepare the file `yt_users.csv` in the resources folder (`src/main/resources`):
 
