@@ -41,12 +41,6 @@ README.md  project documentation
 
 <h3>Installation and launch</h3>
 
-
-Clone the repository: \
-git clone https://github.com/elenazver/mytransfer.git
-
-
-
 1. cd mytransfer
 2. Edit the file `constants/ProjectConstants.java`:
 
